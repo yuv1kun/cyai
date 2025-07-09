@@ -1,66 +1,155 @@
-# Neon Threat Vision
+<div align="center">
 
-## Project info
+# 🛡️ CYAI - Advanced Cybersecurity Threat Detection
 
-A modern web application built with React, TypeScript, and Tailwind CSS.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue.svg)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.11-06B6D4.svg)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.1-646CFF.svg)](https://vitejs.dev/)
 
-## How can I edit this code?
+<img src="https://raw.githubusercontent.com/yuv1kun/cyai/main/public/logo.png" alt="CYAI Logo" width="200"/>
 
-There are several ways of editing your application.
+Next-generation cybersecurity threat detection powered by advanced AI and machine learning.
 
-**Use your preferred IDE**
+[Demo](#demo) • [Features](#features) • [Installation](#installation) • [Usage](#usage) • [Architecture](#architecture) • [Contributing](#contributing) • [License](#license)
 
-Work locally using your own IDE by cloning this repo and pushing changes.
+</div>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 Overview
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+CYAI is a cutting-edge cybersecurity platform that leverages artificial intelligence to detect, analyze, and mitigate security threats in real-time. The system incorporates advanced machine learning algorithms to identify patterns, anomalies, and potential security breaches before they can cause harm.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Designed with a modern, cyberpunk-inspired UI, CYAI provides security professionals with intuitive visualizations and actionable insights to strengthen their organization's security posture.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## ✨ Features
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+- **🔍 Real-time Threat Detection** - Monitor and identify security threats as they emerge
+- **🤖 AI-powered Analysis** - Advanced machine learning models to detect anomalies and patterns
+- **📊 Interactive Dashboards** - Visualize security data with intuitive, real-time metrics
+- **🌐 Network Monitoring** - Track and analyze network traffic for suspicious activity
+- **📁 File Analysis** - Scan and detect malicious files with deep content inspection
+- **📝 Comprehensive Reports** - Generate detailed security reports with actionable insights
+- **🧪 Threat Lab** - Environment for testing and analyzing potential threats safely
+- **⚙️ Customizable Alerts** - Configure notification settings based on threat severity
+
+## 📸 Demo
+
+![CYAI Dashboard](https://example.com/dashboard-preview.png)
+
+## 🛠️ Technology Stack
+
+- **Frontend**
+  - React 18.3
+  - TypeScript
+  - Tailwind CSS
+  - Shadcn UI Components
+  - Framer Motion for animations
+  - Recharts for data visualization
+
+- **Backend**
+  - Supabase for authentication and database
+  - Serverless functions for AI processing
+  
+- **AI/ML**
+  - Custom threat detection models
+  - Pattern recognition algorithms
+  - Anomaly detection systems
+
+## 📦 Installation
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/yuv1kun/cyai.git
+
+# Navigate to the project directory
+cd cyai
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📖 Usage
 
-**Use GitHub Codespaces**
+1. **Dashboard**: View overall security status and key metrics
+2. **Threat Detection**: Monitor real-time threats and alerts
+3. **Network Analysis**: Visualize and inspect network traffic
+4. **File Scanner**: Upload and scan files for malicious content
+5. **Reports**: Generate comprehensive security reports
+6. **Settings**: Configure detection sensitivity and alert preferences
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🏗️ Architecture
 
-## What technologies are used for this project?
+CYAI follows a modern, component-based architecture:
 
-This project is built with:
+```
+src/
+├── components/         # UI components
+│   ├── ui/             # Base UI components (shadcn)
+│   ├── ThreatDetection.tsx
+│   └── ...
+├── pages/              # Application pages
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+├── integrations/       # External service integrations
+└── types/              # TypeScript type definitions
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🔧 Configuration
 
-## How can I deploy this project?
+CYAI can be configured via environment variables:
 
-You can deploy this project to any hosting platform that supports Vite/React applications, such as:
+```
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-supabase-key
+```
 
-- Vercel
-- Netlify
-- GitHub Pages
-- AWS Amplify
+## 🚀 Deployment
 
-To deploy, run `npm run build` to create a production build, then deploy the resulting files according to your hosting provider's instructions.
+CYAI can be deployed to various platforms:
+
+```bash
+# Build for production
+npm run build
+
+# Preview production build locally
+npm run preview
+```
+
+Compatible with Vercel, Netlify, GitHub Pages, and AWS Amplify.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+<div align="center">
+
+**CYAI** - Developed by [yuv1kun](https://github.com/yuv1kun)
+
+</div>
