@@ -1,0 +1,7 @@
+project_id = "byjograuihjhlbdlxcdi"
+
+[functions.ai-threat-detection]
+verify_jwt = false
+
+[functions.ai-advanced-detection]
+verify_jwt = false
